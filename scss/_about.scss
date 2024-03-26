@@ -1,0 +1,295 @@
+@use "header" as *;
+@use "footer" as *;
+@use "variables" as *;
+
+
+
+#about{
+    box-sizing: border-box;
+    text-align: center;
+    padding-bottom: 25px;
+    padding-top: 20px;
+
+    >h1{
+        font-family: 'Times New Roman', Times, serif;
+        padding-bottom: 20px;
+    }
+
+    >h3{
+        padding-bottom: 10px;
+        font-family: 'poppins-regular';
+        letter-spacing: .3px;
+        font-weight: 300;
+    }
+
+    >h3{
+
+      
+        font-family: 'poppins-regular';
+       letter-spacing: .3;
+        font-weight: 200;
+
+
+    }
+}
+
+
+#alberta{
+    box-sizing: border-box;
+    text-align: center;
+
+    >a{
+        color: black;
+        letter-spacing: .5px;
+        font-family: 'poppins-regular';
+    }
+}
+
+.one-p{
+    padding-bottom: 15px;
+    margin: 8px;
+    letter-spacing: .5px;
+    line-height: 1.6;
+    font-family: 'poppins-regular';
+}
+
+.two-p{
+    padding-bottom: 15px;
+    margin: 8px;
+    letter-spacing: .5px;
+    line-height: 1.6;
+    font-family: 'poppins-regular';
+}
+
+
+.three-p{
+    padding-bottom: 20px;
+    margin: 8px;
+    letter-spacing: .5px;
+    line-height: 1.6;
+    font-family: 'poppins-regular';
+}
+
+
+#fellow{
+    box-sizing: border-box;
+   
+}
+
+.flok_1{
+    text-align: center;
+    display: none;
+}
+
+.flok_2{
+    padding-top: 70px;
+    >img{
+        width: 350px;
+        padding-left: 10px;
+    }
+}
+
+
+
+/*Tablet*/
+@media only screen and (min-width: 480px){
+
+
+    .one-p {
+        width: 80%;
+        padding-left: 40px;
+    }
+
+
+    .two-p {
+        width: 80%;
+        padding-left: 40px;
+    }
+
+
+    .three-p {
+        width: 80%;
+        padding-left: 40px;
+    }
+
+
+
+    #fellow{
+        box-sizing: border-box;
+        padding-top: 90px;
+        text-align: center;
+        display: flex;
+        padding-bottom: 40px;
+    }
+
+    .flok_1{
+        text-align: center;
+       display: initial;
+       padding-top: 70px;
+
+       >h3{
+        letter-spacing: .5px;
+        line-height: 1.6;
+        font-family: 'poppins-regular';
+        padding-bottom: 15px;
+        font-weight: 200;
+    } 
+
+
+    >h1{
+        font-family: 'Times New Roman', Times, serif;
+        padding-bottom: 10px;
+        font-weight: 700;
+        letter-spacing: .5px;
+    }
+    
+    >p{
+        padding-bottom: 15px;
+        width: 80%;
+        padding-left: 40px;
+        letter-spacing: .5px;
+       line-height: 1.6;
+        font-family: 'poppins-regular';
+    }
+    >a{
+        color: black;
+        padding-top: 15px;
+        padding-left: 5px;
+    }
+  }
+    
+
+
+
+    .flok_2{
+        padding-top: 70px;
+        >img{
+            width: 350px;
+            padding-left: 10px;
+        }
+    }
+
+   
+    .flok_2 > img {
+        width: 450px;
+        padding-left: 10px;
+        padding-right: 20px;
+        
+       
+      
+        
+    }
+
+    .social-media {
+        box-sizing: border-box;
+        padding-left: 50px;
+        display: flex;
+        
+        img{
+            
+            
+        }
+        
+    }
+
+
+    .p-2 > input {
+        padding: 13px 1px;
+        border: none;
+        background-color: #fff;
+    }
+
+
+}
+
+/*End Of Tablet*/
+
+
+
+
+/*DESKTOP*/
+
+@media only screen and (min-width: 992px){
+
+.first-head {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+.one-p {
+    width: 90%;
+    padding-left: 40px;
+}
+
+.two-p {
+    width: 90%;
+    padding-left: 40px;
+}
+
+.three-p {
+    width: 90%;
+    padding-left: 40px;
+}
+
+
+.flok_2 > img {
+    width: 450px;
+    padding-left: 2px;
+    padding-right: 30px;
+}
+
+
+.flok_1 > p {
+    padding-bottom: 15px;
+    width: 70%;
+    padding-left: 70px;
+    letter-spacing: 0.5px;
+    line-height: 1.6;
+    font-family: "poppins-regular";
+}
+
+
+
+}
+
+/*End Of DESKTOP*/
+
+
+
+@media only screen and (min-width: 1025px){
+
+
+    .one-p {
+        width: 75%;
+        padding-left: 130px;
+    }
+
+
+    .two-p {
+        width: 75%;
+        padding-left: 130px;
+    }
+
+
+
+    .flok_2 > img {
+        width: 450px;
+        padding-left: 2px;
+        padding-right: 250px;
+    }
+
+
+    .flok_1 > p {
+        padding-bottom: 15px;
+        width: 60%;
+        padding-left: 250px;
+        letter-spacing: 0.5px;
+        line-height: 1.6;
+        font-family: "poppins-regular";
+    }
+
+
+
+
+}

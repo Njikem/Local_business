@@ -1,0 +1,55 @@
+@use "variables" as *;
+@use "header" as *;
+@use "footer" as *;
+
+
+@media only screen and (min-width: 480px){
+
+
+.gown_one{
+
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+
+    div img{
+        width: 210px;
+        height: 200px;
+    }
+}
+
+.g-3{
+
+    display: none;
+}
+
+.p_8{
+    display: none;
+}
+
+.a_1{
+    display: none;
+}
+
+
+.gown-two{
+
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+
+    div img{
+        width: 190px;
+        height: 190px;
+    }
+}
+
+
+
+
+
+
+
+}
